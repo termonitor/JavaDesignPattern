@@ -1,4 +1,7 @@
-package com.study.pattern.factorymethod;
+package com.study.pattern.abstarctfactory;
+
+import com.study.pattern.factorymethod.MailSender;
+import com.study.pattern.factorymethod.Sender;
 
 /**
  * Created by panxiaoming on 17/1/26.
