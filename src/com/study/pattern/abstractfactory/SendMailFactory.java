@@ -1,4 +1,4 @@
-package com.study.pattern.abstarctfactory;
+package com.study.pattern.abstractfactory;
 
 import com.study.pattern.factorymethod.MailSender;
 import com.study.pattern.factorymethod.Sender;
