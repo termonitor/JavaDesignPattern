@@ -3,6 +3,7 @@ package com.study.pattern.prototype;
 import java.io.*;
 
 /**
+ * 原型模式（Prototype）
  * Created by panxiaoming on 17/1/26.
  */
 public class Prototype implements Cloneable,Serializable {

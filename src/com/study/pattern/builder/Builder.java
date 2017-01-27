@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 建造者模式（Builder）
  * Created by panxiaoming on 17/1/26.
  */
 public class Builder {
