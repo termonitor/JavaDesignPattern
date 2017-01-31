@@ -2,6 +2,7 @@ package com.study.algorithm.graph;
 
 /**
  * Prim算法
+ * 最小生成树
  * Created by panxiaoming on 17/1/31.
  */
 public class Prim {
