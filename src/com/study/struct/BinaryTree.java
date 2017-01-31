@@ -8,7 +8,7 @@ import java.util.List;
  * Created by panxiaoming on 17/1/31.
  */
 public class BinaryTree {
-    private static List<Node> nodeList = null;
+    public static List<Node> nodeList = null;
 
     public static void createBinTree(int[] array) {
         nodeList = new LinkedList<Node>();
@@ -55,18 +55,6 @@ public class BinaryTree {
         postOrder(node.leftChild);
         postOrder(node.rightChild);
         System.out.print(node.data + " ");
-    }
-
-    public static class Node {
-        Node leftChild;
-        Node rightChild;
-        int data;
-
-        Node(int data) {
-            this.data = data;
-            leftChild = null;
-            rightChild = null;
-        }
     }
 
     public static void main(String[] args) {
