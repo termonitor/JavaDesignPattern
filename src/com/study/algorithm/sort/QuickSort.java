@@ -11,6 +11,26 @@ import java.util.List;
  */
 public class QuickSort {
 
+    public static int partition(List<Integer> list, int start, int end, int pivotIndex) {
+        int pivot = list.get(pivotIndex);
+        swap(list, pivot, end);
+        int storeIndex = start;
+        for(int i=start; i<end; i++) {
+            if(list.get(i) < pivot) {
+                swap(list, i, storeIndex);
+                storeIndex++;
+            }
+        }
+        swap(list, storeIndex, end);
+        return storeIndex;
+    }
+
+    public static void swap(List<Integer> list, int i, int j) {
+        Integer tmp = list.get(i);
+        list.set(i, list.get(j));
+        list.set(j, tmp);
+    }
+
     public static int mpartition(List<Integer> list, int l, int r) {
         int pivot = list.get(l);
 
